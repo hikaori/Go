@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+
 func main() {
-    fmt.Println("Hello, World!")
+    mybill := newBill("kaori's bill")
+    fmt.Println(mybill)
 }

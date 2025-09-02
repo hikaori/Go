@@ -41,4 +41,6 @@ func main() {
 	ptr.Birthday()
 	fmt.Println("after `ptr.Birthday` Print alice:", alice) // Age 31
 	fmt.Println("after `ptr.Birthday` Print ptr:", ptr) // Age 31
+
+	demoPointerParams()
 }
